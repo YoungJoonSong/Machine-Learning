@@ -4,11 +4,80 @@
     <meta charset="utf-8">
     <title>Mobile Communications and Coding Lab - HTML</title>
   </head>
+
+  <style>
+
+      h1#mcc {
+        border: 5px solid gray;
+        font-family: Georgia;
+        font-style: italic;
+        font-size: 60px;
+        padding: 20px;
+        width: 700px;
+        margin:50px;
+        color:gray;
+        letter-spacing:2px;
+        text-align: center;
+      }
+
+      h2#meb {
+        border: 20px ;
+        font-family: Georgia;
+        font-size: 40px;
+        padding: 20px;
+        width: 700px;
+        margin:10px;
+        color:gray;
+        letter-spacing:2px;
+        text-align: center;
+      }
+
+      h3#info {
+        border: 20px ;
+        font-family: Georgia;
+        font-size: 30px;
+        padding: 20px;
+        width: 700px;
+        margin:10px;
+        color:gray;
+        letter-spacing:2px;
+        text-align: center;
+      }
+
+      p#office{
+        font-family:Times;
+        font-size: 20px;
+        color: black;
+        line-height:1.6;
+      }
+
+      div{
+        border: 2px solid gray;
+        background-color: lightblue;
+      }
+
+      div#research{
+        padding-left: 20px;
+        font-size:25px;
+      }
+
+      div#members{
+        padding-left: 20px;
+        font-size:25px;
+      }
+
+      ul  {
+        list-style: square;
+        font-size:20px;
+        color: black;
+        line-height:1.6;
+      }
+
+  </style>
   <body>
-    <h1>Mobile Communications and Coding Lab</h1>
-    <h2>Director: </h2>
-    <h3>Porf. Young Joon Song</h3>
-    <p>Professor/Ph.D <br>
+    <h1 id="mcc">Mobile Communications and Coding Lab</h1>
+    <h2>Director: Porf. Young Joon Song</h2>
+    <p id="office">
       D-550, Mobile Communications and Coding Lab., <br>
       Dept. of EE, Kumoh National Institute of Technology, <br>
       61 Daehak-ro, Gumi, Gyeongbuk, 39177, South Korea <br>
@@ -16,24 +85,33 @@
       Office: +82-54-478-7486
     </p>
     <img src="Song.jpg" width="30%" height="30%">
-    <p> His research interests include mobile communication systems such as 5G and beyond and channel coding theory and implementations. <br>
-      He is also interested in machine learing and deep learning algorithms and their applicaitons to autonomous driving and public safety system realization.
-    </p>
-    <h2>Members</h2>
-      <h4>Gook Han Cho (Ph.D course)</h4>
-      <h4>Hyun Woo Cho (Master Course)</h4>
 
-    <h3>useful sites for paper preparation</h3>
-    <a href="https://www.overleaf.com/learn">Latex Overleaf Help documents</a> Most of Latex problem can be solved here!! <br>
-    <a href="http://t-robotics.blogspot.com/2016/02/latex.html#.XCB3UVwzZEY">Latex first step</a> <br>
-    <a href="https://www.thestudentroom.co.uk/help/latex">Latex basic mathematical expressions</a> <br>
-    <a href="https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols">Latex symbos</a> <br>
-    <a href="http://w2.syronex.com/jmr/tex/texsym.old.html">Latex selected symbols</a> <br>
-    <a href="https://www.overleaf.com/learn/latex/Questions/How_to_include_a_bibliography_using_bibtex">Latex 참고문헌</a> <br>
+    <div id="research">
+      <p> His research interests include mobile communication systems such as 5G and beyond and channel coding theory and their implementations. <br>
+        He is also interested in machine learing and deep learning algorithms and their applicaitons to autonomous driving and public safety system realization.
+      </p>
+    </div>
+    <br>
+    <br>
+    <h2 id="meb">Members</h2>
+      <div id="members">
+        <p>
+          Gook Han Cho (Ph.D course)<br>
+          Hyun Woo Cho (Master Course)<br>
+        </p>
+      </div>
 
-
-
-
-
+      <br>
+      <br>
+    <h3 id="info"> useful sites for paper preparation</h3>
+    <ul>
+      <li>    <a href="https://www.overleaf.com/learn">Latex Overleaf Help documents</a>
+        Most of Latex problems can be solved here!! </li>
+      <li>  <a href="http://t-robotics.blogspot.com/2016/02/latex.html#.XCB3UVwzZEY">Latex first step</a> </li>
+      <li>  <a href="https://www.thestudentroom.co.uk/help/latex">Latex basic mathematical expressions</a> </li>
+      <li>  <a href="https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols">Latex symbos</a> </li>
+      <li>  <a href="http://w2.syronex.com/jmr/tex/texsym.old.html">Latex selected symbols</a> </li>
+      <li>  <a href="https://www.overleaf.com/learn/latex/Questions/How_to_include_a_bibliography_using_bibtex">Latex 참고문헌</a> </li>
+  </ul>
   </body>
 </html>
